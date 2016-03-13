@@ -28,16 +28,20 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+.wrapper {
 	width: 1900px;
-	height: 4100px;
 	background-color: #ffffff;
 }
 .mashthead{
-	width: 1900px;
 	height: 750px;
 	background-color: #000000;
-	background-image: url("images/Layer 34.png");
+	background-image: url("images/header_bg.png");	
+	margin: 0;
+	overflow: hidden;
+}
+.headcaption {
+
+	margin: 15% auto 0px;
 }
 h1{
 	font-family: "Open Sans";
@@ -47,9 +51,8 @@ h1{
 	letter-spacing: 0px;
 	color: #ffffff;
 	text-transform: uppercase;
-	display: inline-block;
-	margin-left: 514px;
-	margin-top: 246px;
+	text-align: center;
+	
 }
 h2{
 	font-family: "Raleway";
@@ -57,6 +60,40 @@ h2{
 	line-height: 33px;
 	letter-spacing: 0px;
 	color: #ffffff;
-	margin-left: 491px;
-	margin-top: 21px;
+	text-align: center;
 }
+.button {
+	height: 45px;
+	width: 200px;
+	background-color: #e84545;
+	text-align: center;
+	font-family: "Raleway";
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-top: 20px;
+	margin: 100px auto 0px;
+	font-size: 13px;
+	line-height: 21px;
+	color: #ffffff;
+}
+.navigation {
+	font-family: "Raleway";
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #ffffff;
+	margin: 0px 364px auto 0px;
+	display: inline-block;
+	float: right;
+	border-bottom: 1px solid #4f5168;
+	padding: 50px;
+}
+.navigation_link {
+	margin-left: 50px;
+}
+.navigation_label {
+	margin-right: 400px;
+}
+
